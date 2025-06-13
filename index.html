@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kolibri puhastusteenused</title>
+	<link rel="stylesheet" href="./styles/normalize.css">
+	<link rel="stylesheet" href="./styles/general.css">
+</head>
+<body>
+	<img src="./img/uzor.svg" alt="uzor" id="svg-background">
+	<header id="header">
+		<div class="container header-container">
+			<nav id="header-nav">
+				<ul id="nav-list">
+					<li class="nav-list-li">
+						<a href="#about-us">
+							<span class="nav-list-li-text">О нас</span>
+						</a>
+					</li>
+					<li class="nav-list-li">
+						<a href="#team">
+							<span class="nav-list-li-text">Команда</span>
+						</a>
+					</li>
+					<li class="nav-list-li">
+						<a href="#gallery">
+							<span class="nav-list-li-text">Галерея</span>
+						</a>
+					</li>
+					<li class="nav-list-li">
+						<a href="#pricing">
+							<span class="nav-list-li-text">Ценовая политика</span>
+						</a>
+					</li>
+					<li class="nav-list-li">
+						<a href="#contacts">
+							<span class="nav-list-li-text">Контакты</span>
+						</a>
+					</li>
+					<li class="nav-list-li">
+						<a href="#useful_info">
+							<span class="nav-list-li-text">Полезная информация</span>
+						</a>
+					</li>
+					<li class="nav-list-li">
+						<label id="language-label">
+							<select name="languages" id="language-select">
+								<option value="ru" class="language-option">Русский</option>
+								<option value="ee" class="language-option">Эстонский</option>
+							</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main id="main">
+		<div class="container">
+			<section id="hero">
+				<div id="main-logo">
+					<img src="./img/logo.jpg" alt="Logo" id="main-logo-image">
+				</div>
+			</section>
+			<section id="about-us">
+				<h1 class="section-header about-us-header">
+					О нас
+				</h1>
+				<p id="about-us-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, animi architecto asperiores consectetur cupiditate delectus dolores earum facere incidunt magni modi molestiae neque nesciunt nostrum, officiis praesentium quisquam, recusandae tempore.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias amet autem cupiditate delectus dicta dolore ducimus et eum ex facilis fugit incidunt molestias, quidem saepe soluta tenetur totam, vel.
+				</p>
+			</section>
+			<section id="team">
+				<h1 class="section-header team-header">
+					Наша команда
+				</h1>
+				<div id="workers">
+					<div class="worker">
+						<img src="./img/temp_worker.svg" alt="worker">
+						<h2 class="worker-name">
+							Татьяна
+						</h2>
+					</div>
+					<div class="worker">
+						<img src="./img/temp_worker.svg" alt="worker">
+						<h2 class="worker-name">
+							Кристина
+						</h2>
+					</div>
+					<div class="worker">
+						<img src="./img/temp_worker.svg" alt="worker">
+						<h2 class="worker-name">
+							Валентина
+						</h2>
+					</div>
+				</div>
+			</section>
+			<section id="gallery">
+				<h1 class="section-header">
+					Галерея
+				</h1>
+				<div id="videos">
+					<video src="./videos/1.mp4" muted autoplay loop class="video"></video>
+					<video src="./videos/2.mp4" muted autoplay loop class="video"></video>
+					<video src="./videos/3.mp4" muted autoplay loop class="video"></video>
+					<video src="./videos/4.mp4" muted autoplay loop class="video"></video>
+				</div>
+			</section>
+			<section id="contacts">
+				<h1 class="section-header">
+					Контакты
+				</h1>
+				<p id="contacts-text">
+					Свяжитесь с нами по следующим ссылкам
+				</p>
+				<div id="links">
+					<div class="contact-link">
+						<a href="https://www.instagram.com/kolibri_koristusteenused?igsh=M2xpb2J0dGlsOGd3" target="_blank">
+							<img src="./img/instagram_svg.svg" alt="">
+							<h2>
+								Instagram
+							</h2>
+						</a>
+					</div>
+					<div class="contact-link">
+						<a href="https://www.facebook.com/share/1ERnfa1m8r/?mibextid=wwXIfr" target="_blank">
+							<img src="./img/facebook_ico.svg" alt="">
+							<h2>
+								Facebook
+							</h2>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer></footer>
+	<script src="./scripts/videoPlayHoverScript.js"></script>
+	<script src="./scripts/changeLanguageScript.js"></script>
+</body>
+</html>
